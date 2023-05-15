@@ -1,0 +1,50 @@
+@media(min-width: 600px) {
+
+    #left,
+    #right {
+        display: inline-block;
+        width: 40%;
+        padding: 30px;
+    }
+
+    #left {
+        float: left;
+    }
+
+    #right {
+        float: right;
+    }
+
+    #one {
+        float: left;
+        padding: 30px;
+    }
+
+    #two {
+        float: left;
+        padding: 30px;
+    }
+
+    .top {
+        color: darkgoldenrod;
+        font-size: 2rem;
+        padding-left: 60px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        padding-left: 60px;
+    }
+
+    span {
+        color: blue;
+    }
+
+    footer {
+        color: blue;
+        float: right;
+        padding-right: 60px;
+    }
+}
+
+@media(max-width: 600px) {}
